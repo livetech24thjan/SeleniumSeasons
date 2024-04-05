@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apr3rd.TestNgDemo1">
+      <class name="apr5th.FrameHandle">
         <methods>
-          <include name="changePasswordTest"/>
-          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="multipleWindowsHandleTest"/>
         </methods>
-      </class> <!-- apr3rd.TestNgDemo1 -->
+      </class> <!-- apr5th.FrameHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

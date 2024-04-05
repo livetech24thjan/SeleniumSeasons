@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-03T10:42:00 IST" name="Default suite" finished-at="2024-04-03T10:42:00 IST" duration-ms="68">
+  <suite started-at="2024-04-05T11:03:34 IST" name="Default suite" finished-at="2024-04-05T11:03:41 IST" duration-ms="7235">
     <groups>
     </groups>
-    <test started-at="2024-04-03T10:42:00 IST" name="Default test" finished-at="2024-04-03T10:42:00 IST" duration-ms="68">
-      <class name="apr3rd.TestNgDemo1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="setUp" finished-at="2024-04-03T10:42:00 IST" duration-ms="6" status="PASS">
+    <test started-at="2024-04-05T11:03:34 IST" name="Default test" finished-at="2024-04-05T11:03:41 IST" duration-ms="7235">
+      <class name="apr5th.AlertHandle">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:apr5th.AlertHandle@c7ba306]" started-at="2024-04-05T11:03:34 IST" name="setUp" finished-at="2024-04-05T11:03:38 IST" duration-ms="3877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registrationTest()[pri:1, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="registrationTest" finished-at="2024-04-03T10:42:00 IST" duration-ms="4" status="PASS">
+        <test-method signature="alertHandleTest()[pri:0, instance:apr5th.AlertHandle@c7ba306]" started-at="2024-04-05T11:03:38 IST" name="alertHandleTest" finished-at="2024-04-05T11:03:38 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="teardown" finished-at="2024-04-03T10:42:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="loginTest()[pri:2, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="loginTest" finished-at="2024-04-03T10:42:00 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="setUp" finished-at="2024-04-03T10:42:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="teardown" finished-at="2024-04-03T10:42:00 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- alertHandleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:apr5th.AlertHandle@c7ba306]" started-at="2024-04-05T11:03:38 IST" name="teardown" finished-at="2024-04-05T11:03:41 IST" duration-ms="3230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method signature="forgotPasswordTest()[pri:3, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="forgotPasswordTest" finished-at="2024-04-03T10:42:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPasswordTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="setUp" finished-at="2024-04-03T10:42:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="teardown" finished-at="2024-04-03T10:42:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="changePasswordTest()[pri:4, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="changePasswordTest" finished-at="2024-04-03T10:42:00 IST" depends-on-methods="apr3rd.TestNgDemo1.loginTest" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePasswordTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="setUp" finished-at="2024-04-03T10:42:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apr3rd.TestNgDemo1@c7ba306]" started-at="2024-04-03T10:42:00 IST" name="teardown" finished-at="2024-04-03T10:42:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- apr3rd.TestNgDemo1 -->
+      </class> <!-- apr5th.AlertHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
