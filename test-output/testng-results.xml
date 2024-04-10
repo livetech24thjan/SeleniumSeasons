@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-08T10:18:58 IST" name="Default suite" finished-at="2024-04-08T10:19:06 IST" duration-ms="7938">
+  <suite started-at="2024-04-10T10:28:53 IST" name="Default suite" finished-at="2024-04-10T10:29:08 IST" duration-ms="14380">
     <groups>
     </groups>
-    <test started-at="2024-04-08T10:18:58 IST" name="Default test" finished-at="2024-04-08T10:19:06 IST" duration-ms="7938">
-      <class name="apr8th.ScreenshotDemo3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apr8th.ScreenshotDemo3@c7ba306]" started-at="2024-04-08T10:18:58 IST" name="setUp" finished-at="2024-04-08T10:19:02 IST" duration-ms="4143" status="PASS">
+    <test started-at="2024-04-10T10:28:53 IST" name="Default test" finished-at="2024-04-10T10:29:08 IST" duration-ms="14380">
+      <class name="apr10th.ClickUsingJS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:apr10th.ClickUsingJS@c7ba306]" started-at="2024-04-10T10:28:54 IST" name="setUp" finished-at="2024-04-10T10:29:04 IST" duration-ms="10304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="screenshotTest()[pri:0, instance:apr8th.ScreenshotDemo3@c7ba306]" started-at="2024-04-08T10:19:02 IST" name="screenshotTest" finished-at="2024-04-08T10:19:03 IST" duration-ms="503" status="PASS">
+        <test-method signature="clickTest()[pri:0, instance:apr10th.ClickUsingJS@c7ba306]" started-at="2024-04-10T10:29:04 IST" name="clickTest" finished-at="2024-04-10T10:29:04 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- screenshotTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apr8th.ScreenshotDemo3@c7ba306]" started-at="2024-04-08T10:19:03 IST" name="teardown" finished-at="2024-04-08T10:19:06 IST" duration-ms="3251" status="PASS">
+        </test-method> <!-- clickTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:apr10th.ClickUsingJS@c7ba306]" started-at="2024-04-10T10:29:04 IST" name="teardown" finished-at="2024-04-10T10:29:08 IST" duration-ms="3548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- apr8th.ScreenshotDemo3 -->
+      </class> <!-- apr10th.ClickUsingJS -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

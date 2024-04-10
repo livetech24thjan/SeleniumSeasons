@@ -2633,7 +2633,9 @@ This is an advance Wait mechanism of Explicit Wait
 
 Improvements for Explicit Waits
 
--> in WebDriverWait the second argument in constructor always takes long which is in seconds (till Version 3 Selenium)
+-> In older versions (e.g 3.141.59) 
+
+ in WebDriverWait the second argument in constructor always takes long which is in seconds (till Version 3 Selenium)
 
 	withTimeout(Duration)
 
