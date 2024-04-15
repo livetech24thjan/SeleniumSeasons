@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apr10th.ClickUsingJS">
+      <class name="apr15th.Checkbox">
         <methods>
-          <include name="clickTest"/>
           <include name="setUp"/>
-          <include name="teardown"/>
+          <include name="checkBoxAllSelectedTest"/>
         </methods>
-      </class> <!-- apr10th.ClickUsingJS -->
+      </class> <!-- apr15th.Checkbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-10T10:28:53 IST" name="Default suite" finished-at="2024-04-10T10:29:08 IST" duration-ms="14380">
+  <suite started-at="2024-04-15T10:34:58 IST" name="Default suite" finished-at="2024-04-15T10:35:36 IST" duration-ms="38732">
     <groups>
     </groups>
-    <test started-at="2024-04-10T10:28:53 IST" name="Default test" finished-at="2024-04-10T10:29:08 IST" duration-ms="14380">
-      <class name="apr10th.ClickUsingJS">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:apr10th.ClickUsingJS@c7ba306]" started-at="2024-04-10T10:28:54 IST" name="setUp" finished-at="2024-04-10T10:29:04 IST" duration-ms="10304" status="PASS">
+    <test started-at="2024-04-15T10:34:58 IST" name="Default test" finished-at="2024-04-15T10:35:36 IST" duration-ms="38732">
+      <class name="apr15th.StaticWebTable1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:apr15th.StaticWebTable1@59a008ba]" started-at="2024-04-15T10:34:58 IST" name="setUp" finished-at="2024-04-15T10:35:31 IST" duration-ms="32986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickTest()[pri:0, instance:apr10th.ClickUsingJS@c7ba306]" started-at="2024-04-10T10:29:04 IST" name="clickTest" finished-at="2024-04-10T10:29:04 IST" duration-ms="417" status="PASS">
+        <test-method signature="staticWebTableTest()[pri:0, instance:apr15th.StaticWebTable1@59a008ba]" started-at="2024-04-15T10:35:31 IST" name="staticWebTableTest" finished-at="2024-04-15T10:35:33 IST" duration-ms="2063" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:apr10th.ClickUsingJS@c7ba306]" started-at="2024-04-10T10:29:04 IST" name="teardown" finished-at="2024-04-10T10:29:08 IST" duration-ms="3548" status="PASS">
+        </test-method> <!-- staticWebTableTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:apr15th.StaticWebTable1@59a008ba]" started-at="2024-04-15T10:35:33 IST" name="teardown" finished-at="2024-04-15T10:35:36 IST" duration-ms="3611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- apr10th.ClickUsingJS -->
+      </class> <!-- apr15th.StaticWebTable1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
